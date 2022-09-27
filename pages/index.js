@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className="u-body u-overlap u-xl-mode" style={{ backgroundImage: "../public/images/body-bg.png"}} data-lang="fr">
+    <div className="u-body u-overlap u-xl-mode" data-lang="fr" style={{ backgroundColor: '#e5dc9f' }}>
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charSet="utf-8"/>
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="u-menu-close u-menu-close-1" />
               <ul className="u-align-center u-nav u-popupmenu-items u-spacing-51 u-text-hover-custom-color-1 u-unstyled u-nav-3">
                 <li className="u-nav-item">
-                  <a className="u-button-style u-nav-link" href="Accueil.html">
+                  <a className="u-button-style u-nav-link" href="/">
                     Accueil
                   </a>
                   <div className="u-nav-popup">
