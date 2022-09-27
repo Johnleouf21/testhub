@@ -5,7 +5,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div>
+    <div className="u-body u-overlap u-xl-mode" data-lang="fr">
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charSet="utf-8"/>
@@ -23,8 +23,7 @@ export default function Home() {
     <meta property="og:description" content=""/>
     <meta property="og:type" content="website"/>
       </Head>
-
-      
+ 
   <header className="u-clearfix u-header u-sticky u-sticky-036c" id="sec-c4e9">
     <div className="u-clearfix u-sheet u-valign-top-xs u-sheet-1">
       <nav
@@ -411,8 +410,8 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"
     </a>
     .
   </section>
+                
 
-  <Script class="u-script" type="text/javascript" src="/jquery.js" defer=""></Script>
         <Script class="u-script" type="text/javascript" src="/nicepage.js" defer=""></Script>
         <Script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></Script>
         <Script type="application/ld+json">

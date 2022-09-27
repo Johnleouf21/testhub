@@ -1,3 +1,10 @@
+/* Fonts */
+@font-face {
+	font-family: Markup;
+	src: url("../font/Markup/Markup.otf");
+
+}
+
 .u-section-1 {
   background-image: url("/images/YELLOW-FLOW1920.png");
   background-position: 50% 50%;
