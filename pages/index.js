@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import { NextScript } from 'next/document'
 import Script from 'next/script'
 
 
 export default function Home() {
   return (
-    <div className="u-body u-overlap u-xl-mode" data-lang="fr">
+    <div className="u-body u-overlap u-xl-mode" style={{ backgroundImage: "../public/images/body-bg.png"}} data-lang="fr">
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charSet="utf-8"/>
@@ -130,7 +129,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-47b9"
+                          href="#sec-47b9"
                         >
                           WE ARE SAN
                         </a>
@@ -138,7 +137,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-1081"
+                          href="#sec-1081"
                         >
                           ROADMAP
                         </a>
@@ -146,7 +145,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-62c4"
+                          href="#sec-62c4"
                         >
                           JOIN FORCES
                         </a>
@@ -154,7 +153,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-3890"
+                          href="#sec-3890"
                         >
                           POSSIBILITIES
                         </a>
@@ -162,7 +161,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_6cf3"
+                          href="#carousel_6cf3"
                         >
                           $TSAN
                         </a>
@@ -170,7 +169,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_aaca"
+                          href="#carousel_aaca"
                         >
                           COMMUNITY
                         </a>
@@ -178,7 +177,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_0841"
+                          href="#carousel_0841"
                         >
                           APPS
                         </a>
