@@ -3,7 +3,10 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
+ @font-face {
+  font-family: Markup;
+  src: url("../fonts/Markup/Markup.otf");
+}
  .fr-clearfix::after {
   clear: both;
   display: block;
@@ -118,7 +121,7 @@
         color: #43A047; } */
   .fr-view span.fr-emoticon {
     font-weight: normal;
-    font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+    font-family: "Markup";
     display: inline;
     line-height: 0; }
     .fr-view span.fr-emoticon.fr-emoticon-img {
@@ -154,7 +157,7 @@
     background-clip: padding-box;
     background: #f5f5f5;
     padding: 10px;
-    font-family: "Courier New", Courier, monospace; }
+    font-family: "Markup"; }
   .fr-view .fr-class-transparency {
     opacity: 0.5; }
   .fr-view img {
@@ -369,7 +372,7 @@ span.fr-img-caption.fr-view {
 }
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: Markup;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1032,7 +1035,7 @@ ol {
   cursor: pointer;
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -1086,7 +1089,7 @@ ol {
 .u-tab-item a,
 .u-nav-item a {
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -15975,7 +15978,7 @@ div.u-video,
   display: block;
   white-space: nowrap;
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -16928,7 +16931,7 @@ img.u-opacity-0,
 .u-social-url {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -16980,7 +16983,7 @@ img.u-opacity-0,
 .u-language-url {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -17112,7 +17115,7 @@ blockquote .small:before {
   padding-left: 0.8em;
 }
 .u-search input::placeholder {
-  font-family: inherit;
+  font-family: Markup;
 }
 .u-search-icon {
   box-sizing: content-box;
@@ -20234,7 +20237,7 @@ section.u-dialog-block:not(.u-dialog-open) {
 }
 .u-accordion-link {
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -20373,7 +20376,7 @@ section.u-dialog-block:not(.u-dialog-open) {
 .u-carousel-control-next {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: Markup;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -22490,7 +22493,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Markup';
 }
 h1,
 h2,
@@ -22498,7 +22501,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Markup;
 }
 /*end-variables font-family*/
 /*begin-variables color*/

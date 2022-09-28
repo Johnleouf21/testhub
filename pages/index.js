@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className="u-body u-overlap u-xl-mode" data-lang="fr" style={{ backgroundColor: '#e5dc9f' }}>
+    <div className="u-body u-overlap u-xl-mode" data-lang="fr" style={{ backgroundColor: '#e5dc9f', fontFamily: "Markup" }}>
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charSet="utf-8"/>
@@ -21,11 +21,12 @@ export default function Home() {
     <meta property="og:title" content="Accueil"/>
     <meta property="og:description" content=""/>
     <meta property="og:type" content="website"/>
+    
       </Head>
  
       
       
-  <header className="u-clearfix u-header u-sticky u-sticky-036c" id="sec-c4e9">
+  <header className="u-clearfix u-header u-sticky u-sticky-036c" id="sec-c4e9" >
     <div className="u-clearfix u-sheet u-valign-top-xs u-sheet-1">
       <nav
         className="u-align-right u-menu u-menu-hamburger u-offcanvas u-menu-1"
@@ -45,7 +46,7 @@ export default function Home() {
             <li className="u-nav-item">
               <a
                 className="u-active-white u-button-style u-hover-custom-color-1 u-nav-link u-text-hover-custom-color-1"
-                href="Accueil.html"
+                href="/"
                 style={{ padding: "704px 20px" }}
               >
                 Accueil
@@ -55,7 +56,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#sec-47b9"
+                      href="#sec-47b9"
                     >
                       WE ARE SAN
                     </a>
@@ -63,7 +64,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#sec-1081"
+                      href="#sec-1081"
                     >
                       ROADMAP
                     </a>
@@ -71,7 +72,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#sec-62c4"
+                      href="#sec-62c4"
                     >
                       JOIN FORCES
                     </a>
@@ -79,7 +80,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#sec-3890"
+                      href="#sec-3890"
                     >
                       POSSIBILITIES
                     </a>
@@ -87,7 +88,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#carousel_6cf3"
+                      href="A#carousel_6cf3"
                     >
                       $TSAN
                     </a>
@@ -95,7 +96,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#carousel_aaca"
+                      href="#carousel_aaca"
                     >
                       COMMUNITY
                     </a>
@@ -103,7 +104,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.html#carousel_0841"
+                      href="#carousel_0841"
                     >
                       APPS
                     </a>
@@ -122,7 +123,7 @@ export default function Home() {
               <div className="u-menu-close u-menu-close-1" />
               <ul className="u-align-center u-nav u-popupmenu-items u-spacing-51 u-text-hover-custom-color-1 u-unstyled u-nav-3">
                 <li className="u-nav-item">
-                  <a className="u-button-style u-nav-link" href="Accueil.html">
+                  <a className="u-button-style u-nav-link" href="/">
                     Accueil
                   </a>
                   <div className="u-nav-popup">
@@ -130,7 +131,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-47b9"
+                          href="#sec-47b9"
                         >
                           WE ARE SAN
                         </a>
@@ -138,7 +139,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-1081"
+                          href="#sec-1081"
                         >
                           ROADMAP
                         </a>
@@ -146,7 +147,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-62c4"
+                          href="#sec-62c4"
                         >
                           JOIN FORCES
                         </a>
@@ -154,7 +155,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#sec-3890"
+                          href="#sec-3890"
                         >
                           POSSIBILITIES
                         </a>
@@ -162,7 +163,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_6cf3"
+                          href="#carousel_6cf3"
                         >
                           $TSAN
                         </a>
@@ -170,7 +171,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_aaca"
+                          href="#carousel_aaca"
                         >
                           COMMUNITY
                         </a>
@@ -178,7 +179,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="Accueil.html#carousel_0841"
+                          href="#carousel_0841"
                         >
                           APPS
                         </a>
@@ -1129,7 +1130,7 @@ export default function Home() {
           upcoming TamagoSanl game.
         </p>
         <p className="u-align-left u-small-text u-text u-text-variant u-text-13">
-          {" "}
+          {" "}<br/>
           STSAN token is the core of the Tamagosan economy. Use your $TSAN in
           the shop to buy Advanced parts or use it to play the Gacha Parts
           machine and receive random Classic or Advanced parts at a very lower
