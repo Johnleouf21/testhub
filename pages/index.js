@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
  
       
+      
   <header className="u-clearfix u-header u-sticky u-sticky-036c" id="sec-c4e9">
     <div className="u-clearfix u-sheet u-valign-top-xs u-sheet-1">
       <nav
@@ -54,7 +55,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.#sec-47b9"
+                      href="Accueil.html#sec-47b9"
                     >
                       WE ARE SAN
                     </a>
@@ -62,7 +63,7 @@ export default function Home() {
                   <li className="u-nav-item">
                     <a
                       className="u-button-style u-nav-link u-white"
-                      href="Accueil.#sec-1081"
+                      href="Accueil.html#sec-1081"
                     >
                       ROADMAP
                     </a>
@@ -121,7 +122,7 @@ export default function Home() {
               <div className="u-menu-close u-menu-close-1" />
               <ul className="u-align-center u-nav u-popupmenu-items u-spacing-51 u-text-hover-custom-color-1 u-unstyled u-nav-3">
                 <li className="u-nav-item">
-                  <a className="u-button-style u-nav-link" href="/">
+                  <a className="u-button-style u-nav-link" href="Accueil.html">
                     Accueil
                   </a>
                   <div className="u-nav-popup">
@@ -129,7 +130,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#sec-47b9"
+                          href="Accueil.html#sec-47b9"
                         >
                           WE ARE SAN
                         </a>
@@ -137,7 +138,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#sec-1081"
+                          href="Accueil.html#sec-1081"
                         >
                           ROADMAP
                         </a>
@@ -145,7 +146,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#sec-62c4"
+                          href="Accueil.html#sec-62c4"
                         >
                           JOIN FORCES
                         </a>
@@ -153,7 +154,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#sec-3890"
+                          href="Accueil.html#sec-3890"
                         >
                           POSSIBILITIES
                         </a>
@@ -161,7 +162,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#carousel_6cf3"
+                          href="Accueil.html#carousel_6cf3"
                         >
                           $TSAN
                         </a>
@@ -169,7 +170,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#carousel_aaca"
+                          href="Accueil.html#carousel_aaca"
                         >
                           COMMUNITY
                         </a>
@@ -177,7 +178,7 @@ export default function Home() {
                       <li className="u-nav-item">
                         <a
                           className="u-button-style u-nav-link"
-                          href="#carousel_0841"
+                          href="Accueil.html#carousel_0841"
                         >
                           APPS
                         </a>
@@ -186,6 +187,13 @@ export default function Home() {
                   </div>
                 </li>
               </ul>
+              <img
+                className="u-image u-image-contain u-image-default u-preserve-proportions u-image-1"
+                src="images/ball-little.png"
+                alt=""
+                data-image-width={155}
+                data-image-height={158}
+              />
             </div>
           </div>
           <div className="u-black u-menu-overlay u-opacity u-opacity-70" />
@@ -225,7 +233,7 @@ export default function Home() {
       </div>
       <a
         href="https://nicepage.com"
-        className="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-align-left-xs u-image u-logo u-image-1"
+        className="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-align-left-xs u-image u-logo u-image-2"
         data-image-width={562}
         data-image-height={136}
       >
@@ -297,152 +305,188 @@ export default function Home() {
     </div>
   </section>
   <section className="u-clearfix u-section-2" id="sec-1081">
-    <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <h1 className="u-align-center u-text u-text-default u-title u-text-1">
-        ROADMAP
-      </h1>
-      <div className="u-clearfix u-layout-wrap u-layout-wrap-1">
-        <div className="u-layout">
-          <div className="u-layout-row">
-            <div className="u-size-10-lg u-size-10-xl u-size-19-sm u-size-19-xs u-size-30-md">
-              <div className="u-layout-col">
-                <div className="u-size-60">
-                  <div className="u-layout-row">
-                    <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                      <div className="u-container-layout u-container-layout-1" />
+    <h1 className="u-align-center u-text u-text-default u-title u-text-1">
+      ROADMAP
+    </h1>
+    <div className="u-clearfix u-layout-wrap u-layout-wrap-1">
+      <div className="u-layout">
+        <div className="u-layout-row">
+          <div className="u-size-10-lg u-size-10-xl u-size-19-sm u-size-19-xs u-size-30-md">
+            <div className="u-layout-col">
+              <div className="u-size-60">
+                <div className="u-layout-row">
+                  <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
+                    <div className="u-container-layout u-container-layout-1">
+                      <img
+                        className="u-image u-image-contain u-image-default u-preserve-proportions u-image-1"
+                        src="images/ball-little.png"
+                        alt=""
+                        data-image-width={155}
+                        data-image-height={158}
+                        data-animation-name="customAnimationIn"
+                        data-animation-duration={4000}
+                        data-animation-delay={0}
+                      />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="u-size-21-sm u-size-21-xs u-size-40-lg u-size-40-md u-size-40-xl">
-              <div className="u-layout-col">
-                <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
-                  <div className="u-container-layout u-container-layout-2">
-                    <img
-                      className="u-align-center u-image u-image-contain u-image-1"
-                      src="images/center-bar.png"
-                      data-image-width={516}
-                      data-image-height={979}
-                    />
-                    <h2 className="u-text u-text-default u-text-2">
-                      Phase one : starting 09/15/22
-                    </h2>
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-2"
-                      src="images/flag1.png"
-                      alt=""
-                      data-image-width={63}
-                      data-image-height={94}
-                    />
-                    <h4 className="u-align-center u-text u-text-default u-text-3">
-                      - Launching website, Discord &amp; socials networks.
-                      <br />- $TSAN token creation.
-                      <br />- Discord game opening with exclusive
-                      <br />
-                      $TSAN rewards, giveways &amp; whitelist spots.
-                      <br />- Investments in advertisings &amp; collabs.
-                    </h4>
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-3"
-                      src="images/img2.png"
-                      alt=""
-                      data-image-width={191}
-                      data-image-height={229}
-                    />
-                    <h2 className="u-text u-text-default u-text-4">
-                      {" "}
-                      PHASE TWO: STARTING 10/10/2022
-                    </h2>
-                    <h4 className="u-align-center u-text u-text-default u-text-5">
-                      {" "}
-                      - Starter-pack available for minting on the Ethereum
-                      blockchain.
-                      <br /> - Opening of the Tamagosan Apps: The Pimp Factory.
-                      <br /> - THe Swap Room and The Gacha Part machine.
-                    </h4>
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-4"
-                      src="images/img1.png"
-                      alt=""
-                      data-image-width={283}
-                      data-image-height={201}
-                    />
-                    <h2 className="u-text u-text-default u-text-6">
-                      {" "}
-                      PHASE THREE : TBA
-                    </h2>
-                    <h4 className="u-align-center u-text u-text-default u-text-7">
-                      {" "}
-                      - Staking Dapp launching with $STAN farming.
-                      <br /> - DAO website opening.
-                      <br /> - $STAN token listing with liquidity pool &amp;
-                      reserve creation.
-                    </h4>
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-5"
-                      src="images/img4.png"
-                      alt=""
-                      data-image-width={270}
-                      data-image-height={221}
-                    />
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-6"
-                      src="images/flag2_150.png"
-                      alt=""
-                      data-image-width={70}
-                      data-image-height={87}
-                    />
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-7"
-                      src="images/flag4_150.png"
-                      alt=""
-                      data-image-width={89}
-                      data-image-height={97}
-                    />
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-8"
-                      src="images/img3.png"
-                      alt=""
-                      data-image-width={283}
-                      data-image-height={404}
-                    />
-                    <img
-                      className="u-image u-image-default u-preserve-proportions u-image-9"
-                      src="images/flag3_150.png"
-                      alt=""
-                      data-image-width={48}
-                      data-image-height={84}
-                    />
-                    <h2 className="u-text u-text-default u-text-8">
-                      {" "}
-                      PHASE FOUR : TBA
-                    </h2>
-                    <h4 className="u-align-center u-text u-text-default u-text-9">
-                      {" "}
-                      - TAMAGO-NO-DENSETSU The Game first chapter launching.
-                      <br /> - TheTamago-shop opening with fancy merchs
-                      available only with $STAN.
-                      <br /> - The Tamago-Metaverse first bricks.
-                    </h4>
-                  </div>
+          </div>
+          <div className="u-size-21-sm u-size-21-xs u-size-40-lg u-size-40-md u-size-40-xl">
+            <div className="u-layout-col">
+              <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
+                <div className="u-container-layout u-container-layout-2">
+                  <img
+                    className="u-align-center u-image u-image-contain u-image-2"
+                    src="images/center-bar.png"
+                    data-image-width={516}
+                    data-image-height={979}
+                  />
+                  <h2 className="u-text u-text-default u-text-2">
+                    Phase one : starting 09/15/22
+                  </h2>
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-3"
+                    src="images/flag1.png"
+                    alt=""
+                    data-image-width={63}
+                    data-image-height={94}
+                  />
+                  <h4 className="u-align-center u-text u-text-default u-text-3">
+                    - Launching website, Discord &amp; socials networks.
+                    <br />- $TSAN token creation.
+                    <br />- Discord game opening with exclusive
+                    <br />
+                    $TSAN rewards, giveways &amp; whitelist spots.
+                    <br />- Investments in advertisings &amp; collabs.
+                  </h4>
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-4"
+                    src="images/img2.png"
+                    alt=""
+                    data-image-width={191}
+                    data-image-height={229}
+                  />
+                  <h2 className="u-text u-text-default u-text-4">
+                    {" "}
+                    PHASE TWO: STARTING 10/10/2022
+                  </h2>
+                  <h4 className="u-align-center u-text u-text-default u-text-5">
+                    {" "}
+                    - Starter-pack available for minting on the Ethereum
+                    blockchain.
+                    <br /> - Opening of the Tamagosan Apps: The Pimp Factory.
+                    <br /> - THe Swap Room and The Gacha Part machine.
+                  </h4>
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-5"
+                    src="images/img1.png"
+                    alt=""
+                    data-image-width={283}
+                    data-image-height={201}
+                  />
+                  <h2 className="u-text u-text-default u-text-6">
+                    {" "}
+                    PHASE THREE : TBA
+                  </h2>
+                  <h4 className="u-align-center u-text u-text-default u-text-7">
+                    {" "}
+                    - Staking Dapp launching with $STAN farming.
+                    <br /> - DAO website opening.
+                    <br /> - $STAN token listing with liquidity pool &amp;
+                    reserve creation.
+                  </h4>
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-6"
+                    src="images/img4.png"
+                    alt=""
+                    data-image-width={270}
+                    data-image-height={221}
+                  />
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-7"
+                    src="images/flag2_150.png"
+                    alt=""
+                    data-image-width={70}
+                    data-image-height={87}
+                  />
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-8"
+                    src="images/flag4_150.png"
+                    alt=""
+                    data-image-width={89}
+                    data-image-height={97}
+                  />
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-9"
+                    src="images/img3.png"
+                    alt=""
+                    data-image-width={283}
+                    data-image-height={404}
+                  />
+                  <img
+                    className="u-image u-image-default u-preserve-proportions u-image-10"
+                    src="images/flag3_150.png"
+                    alt=""
+                    data-image-width={48}
+                    data-image-height={84}
+                  />
+                  <h2 className="u-text u-text-default u-text-8">
+                    {" "}
+                    PHASE FOUR : TBA
+                  </h2>
+                  <h4 className="u-align-center u-text u-text-default u-text-9">
+                    {" "}
+                    - TAMAGO-NO-DENSETSU The Game first chapter launching.
+                    <br /> - TheTamago-shop opening with fancy merchs available
+                    only with $STAN.
+                    <br /> - The Tamago-Metaverse first bricks.
+                  </h4>
                 </div>
               </div>
             </div>
-            <div className="u-size-10-lg u-size-10-xl u-size-19-sm u-size-19-xs u-size-60-md">
-              <div className="u-layout-col">
-                <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-3">
-                  <div className="u-container-layout u-container-layout-3" />
-                </div>
+          </div>
+          <div className="u-size-10-lg u-size-10-xl u-size-19-sm u-size-19-xs u-size-60-md">
+            <div className="u-layout-col">
+              <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-3">
+                <div className="u-container-layout u-container-layout-3" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <img
+      className="u-image u-image-contain u-image-default u-preserve-proportions u-image-11"
+      src="images/ball-middle.png"
+      alt=""
+      data-image-width={287}
+      data-image-height={278}
+      data-animation-name="customAnimationIn"
+      data-animation-duration={5000}
+      data-animation-direction=""
+    />
+    <img
+      className="u-image u-image-contain u-image-default u-preserve-proportions u-image-12"
+      src="images/ball-large.png"
+      alt=""
+      data-image-width={392}
+      data-image-height={390}
+      data-animation-name="customAnimationIn"
+      data-animation-duration={2750}
+      data-animation-delay={1500}
+    />
   </section>
   <section className="u-clearfix u-section-3" id="sec-62c4">
     <div className="u-clearfix u-sheet u-sheet-1">
+      <img
+        className="u-image u-image-contain u-image-default u-preserve-proportions u-image-1"
+        src="images/ball-large.png"
+        alt=""
+        data-image-width={392}
+        data-image-height={390}
+      />
       <div className="u-align-left u-container-style u-custom-color-3 u-group u-radius-15 u-shape-round u-group-1">
         <div className="u-container-layout u-container-layout-1" />
       </div>
@@ -474,8 +518,8 @@ export default function Home() {
             <div className="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
               <div className="u-container-layout u-container-layout-3">
                 <img
-                  className="u-align-right u-image u-image-contain u-image-default u-image-1"
-                  src="images/img-26.png"
+                  className="u-align-right u-image u-image-contain u-image-default u-image-2"
+                  src="images/img-30.png"
                   alt=""
                   data-image-width={654}
                   data-image-height={913}
@@ -489,6 +533,13 @@ export default function Home() {
   </section>
   <section className="u-align-center u-clearfix u-section-4" id="sec-3890">
     <div className="u-align-left u-clearfix u-sheet u-sheet-1">
+      <img
+        className="u-image u-image-contain u-image-default u-preserve-proportions u-image-1"
+        src="images/ball-middle.png"
+        alt=""
+        data-image-width={287}
+        data-image-height={278}
+      />
       <div className="u-container-style u-custom-color-2 u-group u-radius-8 u-shape-round u-group-1">
         <div className="u-container-layout u-container-layout-1">
           <div className="u-container-style u-custom-color-1 u-group u-shape-round u-top-right-radius-8 u-group-2">
@@ -525,8 +576,8 @@ export default function Home() {
             <div className="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
               <div className="u-container-layout u-container-layout-3">
                 <img
-                  className="u-image u-image-contain u-image-default u-image-1"
-                  src="images/img-27.png"
+                  className="u-image u-image-contain u-image-default u-image-2"
+                  src="images/img-31.png"
                   alt=""
                   data-image-width={752}
                   data-image-height={449}
@@ -551,6 +602,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <img
+        className="u-image u-image-contain u-image-default u-preserve-proportions u-image-3"
+        src="images/ball-large.png"
+        alt=""
+        data-image-width={392}
+        data-image-height={390}
+      />
     </div>
   </section>
   <section className="u-align-center u-clearfix u-section-5" id="carousel_6cf3">
@@ -622,7 +680,14 @@ export default function Home() {
   </section>
   <section className="u-align-center u-clearfix u-section-6" id="carousel_aaca">
     <div className="u-align-left u-clearfix u-sheet u-sheet-1">
-      <div className="u-container-style u-custom-color-2 u-group u-radius-8 u-shape-round u-group-1">
+      <img
+        className="u-image u-image-default u-image-1"
+        src="images/ball-large.png"
+        alt=""
+        data-image-width={392}
+        data-image-height={390}
+      />
+      <div className="u-align-center u-container-style u-custom-color-2 u-group u-radius-8 u-shape-round u-group-1">
         <div className="u-container-layout u-container-layout-1">
           <div className="u-container-style u-custom-color-1 u-group u-shape-round u-top-right-radius-8 u-group-2">
             <div className="u-container-layout u-container-layout-2">
@@ -656,7 +721,7 @@ export default function Home() {
                 <div className="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                   <div className="u-container-layout u-container-layout-3">
                     <img
-                      className="u-align-left u-image u-image-contain u-image-default u-preserve-proportions u-image-1"
+                      className="u-align-left u-image u-image-contain u-image-default u-preserve-proportions u-image-2"
                       src="images/join.png"
                       alt=""
                       data-image-width={125}
@@ -758,36 +823,430 @@ export default function Home() {
       </div>
     </div>
   </section>
+  <section className="u-clearfix u-section-8" id="sec-f34d">
+    <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <img
+        className="u-image u-image-default u-image-1"
+        src="images/ball-large.png"
+        alt=""
+        data-image-width={392}
+        data-image-height={390}
+      />
+      <div className="u-container-style u-custom-color-3 u-group u-radius-15 u-shape-round u-group-1">
+        <div className="u-container-layout u-container-layout-1">
+          <div className="u-align-center u-clearfix u-layout-wrap u-layout-wrap-1">
+            <div className="u-layout">
+              <div className="u-layout-col">
+                <div className="u-size-30">
+                  <div className="u-layout-row">
+                    <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+                      <div className="u-container-layout u-container-layout-2">
+                        <h6 className="u-text u-text-default u-text-1">
+                          1. A egg-shapped NFT body{" "}
+                        </h6>
+                        <img
+                          className="u-align-center u-image u-image-contain u-image-default u-image-2"
+                          src="images/img6.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                    <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+                      <div className="u-container-layout u-container-layout-3">
+                        <h5 className="u-text u-text-default u-text-2">
+                          2. 7 random classic NFT body parts
+                        </h5>
+                        <img
+                          className="u-align-center u-image u-image-contain u-image-default u-image-3"
+                          src="images/img1-28.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                    <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-3">
+                      <div className="u-container-layout u-container-layout-4">
+                        <h5 className="u-text u-text-default u-text-3">
+                          3. 10 000 $TSAN airdrop
+                        </h5>
+                        <img
+                          className="u-align-center u-image u-image-contain u-image-default u-image-4"
+                          src="images/img2-32.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="u-size-30">
+                  <div className="u-layout-row">
+                    <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-4">
+                      <div className="u-container-layout u-container-layout-5">
+                        <h5 className="u-text u-text-default u-text-4">
+                          4. A free exclusive TamagoSan! shirt
+                        </h5>
+                        <img
+                          className="u-align-center u-image u-image-contain u-image-default u-image-5"
+                          src="images/img3-33.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                    <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-5">
+                      <div className="u-container-layout u-container-layout-6">
+                        <h5 className="u-align-center u-text u-text-5">
+                          5. DAO governance with decision power
+                        </h5>
+                        <img
+                          className="u-align-center u-image u-image-contain u-image-default u-image-6"
+                          src="images/img4-34.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                    <div className="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-6">
+                      <div className="u-container-layout u-container-layout-7">
+                        <h5 className="u-text u-text-6">
+                          6. Full commercial usage right over your NFT
+                        </h5>
+                        <img
+                          className="u-align-center u-image u-image-default u-image-7"
+                          src="images/img5.png"
+                          alt=""
+                          data-image-width={341}
+                          data-image-height={364}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h5 className="u-align-center u-text u-text-default u-text-7">
+            + an access to all TamagoSan! apps to pimp your TamagoSan! &amp;
+            farm $TSAN
+          </h5>
+        </div>
+      </div>
+      <div className="u-container-style u-custom-color-1 u-group u-radius-10 u-shape-round u-group-2">
+        <div className="u-container-layout u-container-layout-8">
+          <h2 className="u-align-center u-text u-text-default u-text-8">
+            WHAT YOU GET ?
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="u-clearfix u-section-9" id="sec-6e74">
+    <div
+      className="u-container-style u-expanded-width u-group u-image u-image-1"
+      data-image-width={1084}
+      data-image-height={864}
+    >
+      <div className="u-container-layout u-container-layout-1" />
+    </div>
+  </section>
+  <section className="u-clearfix u-valign-middle u-section-10" id="sec-47ef">
+    <h1 className="u-align-center u-text u-text-default u-text-1">THE TEAM</h1>
+    <div className="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+      <div className="u-layout">
+        <div className="u-layout-col">
+          <div className="u-size-30">
+            <div className="u-layout-row">
+              <div className="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+                <div className="u-container-layout u-container-layout-1">
+                  <img
+                    className="u-image u-image-contain u-image-default u-image-1"
+                    src="images/img1-36.png"
+                    alt=""
+                    data-image-width={296}
+                    data-image-height={295}
+                  />
+                  <h5 className="u-text u-text-default u-text-2">
+                    Mr. TSUKUNE
+                    <br />
+                    Co-founder - 2D artist
+                    <br />
+                    Project Manager
+                  </h5>
+                </div>
+              </div>
+              <div className="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+                <div className="u-container-layout u-container-layout-2">
+                  <img
+                    className="u-image u-image-contain u-image-default u-preserve-proportions u-image-2"
+                    src="images/img2-37.png"
+                    alt=""
+                    data-image-width={297}
+                    data-image-height={297}
+                  />
+                  <h5 className="u-text u-text-default u-text-3">
+                    BOBYBOBY
+                    <br />
+                    Co-founder - 2D &amp; 3D artist
+                  </h5>
+                </div>
+              </div>
+              <div className="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-3">
+                <div className="u-container-layout u-container-layout-3">
+                  <img
+                    className="u-image u-image-contain u-image-default u-preserve-proportions u-image-3"
+                    src="images/img3-38.png"
+                    alt=""
+                    data-image-width={296}
+                    data-image-height={296}
+                  />
+                  <h5 className="u-text u-text-default u-text-4">
+                    MAD JOHN
+                    <br />
+                    Lead developer &amp; Tokenomics
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="u-size-30">
+            <div className="u-layout-row">
+              <div className="u-container-style u-layout-cell u-size-30 u-layout-cell-4">
+                <div className="u-container-layout u-valign-bottom u-container-layout-4">
+                  <img
+                    className="u-image u-image-contain u-image-default u-preserve-proportions u-image-4"
+                    src="images/img4-39.png"
+                    alt=""
+                    data-image-width={296}
+                    data-image-height={296}
+                  />
+                  <h5 className="u-align-center u-text u-text-default u-text-5">
+                    NUMASAN
+                    <br />
+                    Community Manager &amp; Tokenomics
+                  </h5>
+                </div>
+              </div>
+              <div className="u-container-style u-layout-cell u-size-30 u-layout-cell-5">
+                <div className="u-container-layout u-valign-bottom u-container-layout-5">
+                  <img
+                    className="u-image u-image-contain u-image-default u-preserve-proportions u-image-5"
+                    src="images/img5-40.png"
+                    alt=""
+                    data-image-width={296}
+                    data-image-height={296}
+                  />
+                  <h5 className="u-align-center u-text u-text-default u-text-6">
+                    AMAURY
+                    <br />
+                    Discord administrator &amp; BOT developer
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="u-clearfix u-section-11" id="sec-503b">
+    <div className="u-clearfix u-sheet u-sheet-1">
+      <img
+        className="u-image u-image-default u-image-1"
+        src="images/ball-large.png"
+        alt=""
+        data-image-width={392}
+        data-image-height={390}
+      />
+      <img
+        className="u-absolute-hcenter u-align-center u-expanded-height u-image u-image-contain u-image-default u-image-2"
+        src="images/bg.png"
+        alt=""
+        data-image-width={1573}
+        data-image-height={1896}
+      />
+      <h1 className="u-align-center u-text u-text-1">GLOSSARY</h1>
+      <div className="u-align-center u-clearfix u-group-elements u-group-elements-1">
+        <h5 className="u-text u-text-white u-text-2">STARTER PACK</h5>
+        <h5 className="u-text u-text-body-alt-color u-text-3">
+          PARTS
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-4">
+          THE PIMP FACTORY
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-5">
+          $TSAN TOKEN
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-6">
+          SWAPP​​​ING
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-7">
+          TAMAGOSAN TRADING
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-8">
+          COMMUNITY WALLET &amp; DAO
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-9">
+          TAMAGOSAN GAMES
+          <br />
+        </h5>
+        <h5 className="u-text u-text-body-alt-color u-text-10">
+          COMMERCIAL RIGHTS
+          <br />
+        </h5>
+      </div>
+      <div className="u-align-center u-clearfix u-group-elements u-group-elements-2">
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-11">
+          {" "}
+          Starter-Packs contain everything you need to create your first
+          Tamagosan. Each Starter-Pack contains a Erc721 NFT body and 7 Ere1155
+          NFT body parts (lower body, arms, ears, upper head, eyes, mouth, and
+          nose). Only 8000 starterpack are available and defines the totally
+          supply of the collection, whatever the quantity of parts released
+          later.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-12">
+          {" "}
+          Parts included in the Starter-Packs are classic parts which are the
+          most commons. Advanced parts are available in the shop &amp; the Gacha{" "}
+          <br /> machine. Advanced parts comes with more mechanics and can be
+          assembled with other parts designed to work with it forming what is
+          called a "Full-Set". Owning a "Full-Set give your Tamagosanl more
+          Value and rarity and can let you win awesome rewards. New parts will
+          be released later with for example specific attributes to use in the
+          upcoming TamagoSanl game.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-13">
+          {" "}
+          STSAN token is the core of the Tamagosan economy. Use your $TSAN in
+          the shop to buy Advanced parts or use it to play the Gacha Parts
+          machine and receive random Classic or Advanced parts at a very lower
+          price. You receive $TSAN inside your starter-pack and you can get more
+          by staking your Tamagosan inside the Incubator. You can also receive
+          STSAN by playing the Discord game and by completing Full-Sets.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-14">
+          {" "}
+          The Pimp Factory is the place that lets you mount your body parts on
+          your body and give life to your Tamagosan. Holders can mount and
+          dismount parts with no limitations and owning several Starter-Pack let
+          you choose various ways to mount parts on your different bodies.
+          Holders a free to mount parts the way they want but mounting all parts
+          on a TamagoSon will give it more value and rarity.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-15">
+          {" "}
+          Holders can exchange their parts with other holders depending on every
+          one's wish. Talk with the community on the dedicated Discord channel
+          to find parts to barter. Once you have found someone to swap a part
+          with use our secured custom swapping platform to make the deal. If a
+          part you Want to swap has a lower rarity than the part you are looking
+          for you can propose some extra Eth to compensate. The swapping
+          platform can do it all and is totally secured by our custom escrow
+          contract.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-16">
+          {" "}
+          Once parts are staked on the body, you get the Tamagosan in its final
+          shape. If you decide to sell your Tamagosan with parts attached onto
+          it. parts are part of the trade. This way, you can decide to sell only
+          some parts and get new ones or sale your entire Tomagosan!
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-17">
+          {" "}
+          The Tamagosan DAO give holders the ability to vote for decisions that
+          will choose the way resources will be allocated and influence the
+          future of the TamagoSon brand. 40% of the revenues from the mint and
+          Secondary sales will go into the community Wallet that will be used
+          for the token liquidity pool and the development of the project.!
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-18">
+          {" "}
+          Join Discord and play the Tamago-Bot game which introduce the basic
+          game concepts and lets you eams $TSAN. Armor parts used in the Discord
+          games are exclusive to it and are not NFT parts in relation with the
+          NFT collection. After minting will start the development of the real
+          TamagoSon game for which holders will have the decision to make it the
+          way they wants.
+        </p>
+        <p className="u-align-left u-small-text u-text u-text-variant u-text-19">
+          Holders receive the commercial rights over the TamagoSanl they own as
+          well as the parts composing it. Selling a TamagoSon or any parts will
+          transfer these commercial rights to the new owner as well as the
+          rights of all artwork or commercials supports created with this Tamago
+          Santor with parts.
+        </p>
+      </div>
+      <img
+        className="u-image u-image-default u-image-3"
+        src="images/ball-middle.png"
+        alt=""
+        data-image-width={287}
+        data-image-height={278}
+      />
+    </div>
+  </section>
   <footer
-    className="u-align-center u-clearfix u-footer u-grey-80 u-footer"
+    className="u-align-center u-clearfix u-custom-color-2 u-footer u-footer"
     id="sec-f0b7"
   >
     <div className="u-clearfix u-sheet u-sheet-1">
-      <p className="u-small-text u-text u-text-variant u-text-1">
-        Exemple de texte. Cliquez pour sélectionner l'élément de texte.
-      </p>
+      <div className="u-align-center u-hover-feature u-social-icons u-spacing-11 u-social-icons-1">
+        <a
+          className="u-social-url"
+          title="facebook"
+          target="_blank"
+          href="https://facebook.com/name"
+        >
+          <span className="u-file-icon u-icon u-social-facebook u-social-icon u-text-white u-icon-1">
+            <img src="images/2175193-91c687d2.png" alt="" />
+          </span>
+        </a>
+        <a
+          className="u-social-url"
+          title="twitter"
+          target="_blank"
+          href="https://twitter.com/name"
+        >
+          <span className="u-file-icon u-icon u-social-icon u-social-twitter u-text-white u-icon-2">
+            <img src="images/3669691-8b10166c.png" alt="" />
+          </span>
+        </a>
+        <a
+          className="u-social-url"
+          title="instagram"
+          target="_blank"
+          href="https://instagram.com/name"
+        >
+          <span className="u-file-icon u-icon u-social-icon u-social-instagram u-text-white u-icon-3">
+            <img src="images/2175198-81acabb3.png" alt="" />
+          </span>
+        </a>
+      </div>
+      <img
+        className="u-image u-image-default u-image-1"
+        src="images/logo-min.png"
+        alt=""
+        data-image-width={562}
+        data-image-height={136}
+      />
+      <h6 className="u-text u-text-1">COPYRIGHT 2022 @ TamagoSan!</h6>
     </div>
   </footer>
-  <section className="u-backlink u-clearfix u-grey-80">
-    <a
-      className="u-link"
-      href="https://nicepage.com/website-design"
-      target="_blank"
-    >
-      <span>Website Design</span>
-    </a>
-    <p className="u-text">
-      <span>created with</span>
-    </p>
-    <a
-      className="u-link"
-      href="https://nicepage.com/static-site-generator"
-      target="_blank"
-    >
-      <span>Website Generators</span>
-    </a>
-    .
-  </section>
+
+
 
 
                 
@@ -795,12 +1254,15 @@ export default function Home() {
         <Script class="u-script" type="text/javascript" src="/nicepage.js" defer=""></Script>
         <Script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></Script>
         <Script type="application/ld+json">
-		"@context": "http://schema.org",
+        "@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "WebSite2948738",
 		"url": "/",
 		"logo": "images/logo-min.png",
 		"sameAs": [
+				"https://facebook.com/name",
+				"https://twitter.com/name",
+				"https://instagram.com/name",
 				"https://facebook.com/name",
 				"https://twitter.com/name",
 				"https://instagram.com/name"
